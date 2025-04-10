@@ -28,16 +28,13 @@ export default function About2() {
                                         ABOUT COMPANY
                                     </div>
                                     <h2 className="stitle mb-xxl-8 mb-xl-7 mb-xl-5 mb-4" data-aos="fade-up" data-aos-duration={1600}>
-                                        We are digital creative
+                                        We are a digital creative
                                         <span className="regular d-block">
-                                            agency in London
+                                            agency in Calicut, Kerala
                                         </span>
                                     </h2>
                                     <p className="white-clr mb-xxl-10 mb-xl-8 mb-6">
-                                        Bring to the table win-win survival strategies to ensure proactive domination. At
-                                        the end of the day, going forward, a
-                                        new normal that has evolved from generation on the runway heading towards a
-                                        streamlined cloud.
+                                        We build modern websites, mobile applications, and stunning UI/UX designs tailored for your business. As one of the leading software development companies in Calicut and Kerala, we deliver innovative digital solutions that drive results.
                                     </p>
                                     <div className="global-counting mb-xxl-10 mb-xl-8 mb-6 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
                                         <div className="counting-item">
