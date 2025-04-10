@@ -40,10 +40,15 @@ export default function Menu() {
             </ul> */}
             <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
                 <li className="menu-item position-relative">
-                    <button className="position-relative ps-5  white-clr fw_500 cus-z1" onClick={() => handleAccordion(1)}>
+                    {/* <button className="position-relative ps-5  white-clr fw_500 cus-z1">
+                        Home
+                    </button> */}
+                    <Link href="/" passHref>
+                    <button className="position-relative ps-5 white-clr fw_500 cus-z1">
                         Home
                     </button>
-                    <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
+                    </Link>
+                    {/* <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">
                             <Link href="/" className="fw_500 white-clr">Home Version-1</Link>
                         </li>
@@ -56,13 +61,19 @@ export default function Menu() {
                         <li className="menu-link py-1">
                             <Link href="/index4" className="fw_500 white-clr">Home Version-4</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className="menu-item position-relative">
-                    <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(2)}>
+                    {/* <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(2)}>
                         Pages
-                    </button>
-                    <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
+                    </button> */}
+                    <Link href="/about" passHref>
+                        <button className="position-relative ps-5 white-clr fw_500 cus-z1">
+                            About
+                        </button>
+                    </Link>
+
+                    {/* <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">
                             <Link href="/about" className="fw_500 white-clr">About</Link>
                         </li>
@@ -84,9 +95,9 @@ export default function Menu() {
                         <li className="menu-link py-1">
                             <Link href="/oops" className="fw_500 white-clr">Oops 404</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="menu-item position-relative">
+                {/* <li className="menu-item position-relative">
                     <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(3)}>
                         Protfolio
                     </button>
@@ -98,8 +109,8 @@ export default function Menu() {
                             <Link href="/study-details" className="fw_500 white-clr">Case Study Details</Link>
                         </li>
                     </ul>
-                </li>
-                <li className="menu-item position-relative">
+                </li> */}
+                {/* <li className="menu-item position-relative">
                     <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(4)}>
                         Blog
                     </button>
@@ -114,7 +125,7 @@ export default function Menu() {
                             <Link href="/blog-details" className="fw_500 white-clr">Blog Details</Link>
                         </li>
                     </ul>
-                </li>
+                </li> */}
                 <li className="menu-item position-relative">
                     <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(5)}>
                         Services
